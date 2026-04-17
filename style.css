@@ -1,0 +1,36 @@
+:root{
+--_color:hsl(228, 45%, 44%);
+--color_Neutral_900:hsl(243, 96%, 9%);
+--color_Neutral_800:hsl(243, 27%, 20%);
+--color_Neutral_700: hsl(243, 23%, 24%);
+--color_Neutral_600: hsl(243, 23%, 30%);
+--color_Neutral_300: hsl(240, 6%, 70%);
+--color_Neutral_200: hsl(250, 6%, 84%);
+--color_Neutral_0: hsl(0, 0%, 100%);
+--color_Orange_500: hsl(28, 100%, 52%);
+--color_Blue_500: hsl(233, 67%, 56%);
+--color_Blue_700: hsl(248, 70%, 36%);
+--font_size_rem:0.6875rem;
+--font_size_px:18px;
+--font_family_title:'Bricolage Grotesque', sans-serif;
+}
+body{
+    background-color:var(--color_Neutral_900) !important;
+    font-family: 'DM Sans', sans-serif;
+    color: white !important;
+
+}
+.navbar{
+    background-color: transparent !important;
+    color:var(--color_Neutral_0) !important;
+   
+}
+
+.navbar button{
+     color:var(--color_Neutral_0) !important;
+     background-color:var(--color_Neutral_600);
+}
+.hero_section .text h1{
+    color: var(--font_family_title);
+    
+}
