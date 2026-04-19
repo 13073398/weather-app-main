@@ -20,17 +20,94 @@ body{
     color: white !important;
 
 }
-.navbar{
-    background-color: transparent !important;
-    color:var(--color_Neutral_0) !important;
+
+@media(max-width:992px){
+.navbar .container-md {
+    
+    padding: 10px;
+    justify-content:space-around !important;
+}
+.navbar .container-md .logo{
+    flex-basis: 40% !important;
    
 }
-
-.navbar button{
-     color:var(--color_Neutral_0) !important;
-     background-color:var(--color_Neutral_600);
-}
-.hero_section .text h1{
-    color: var(--font_family_title);
+.navbar .container-md .dropdown{
+   
+    flex-basis: 20%  !important;
     
 }
+}
+.navbar .container-md  .dropdown button {
+   background-color: var(--color_Neutral_600);
+  width: 100%;
+
+}
+.navbar .container-md .logo img{
+    width: 100% !important;
+}
+.hero_section .container-md{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.hero_section .container-md  .text{
+   
+    text-align: center;
+}
+@media(max-width:992px){
+    .hero_section .container-md  .text h1{
+        font-size: var(--font_size_rem) !important;
+    }
+}
+.hero_section .container-md  .text h1{
+  
+    padding: 10px 5px !important;
+    font-family: var(--font_family_title);
+    font-size:40px
+}
+.hero_section .container-md  .tool{
+  
+    padding:10px 5px;
+    width: 45%;
+}
+@media(max-width:992px){
+   .hero_section .container-md  .tool .input-group{
+    flex-direction: column !important;
+    align-items: center !important;
+   } 
+   .hero_section .container-md  .tool .input-group input{
+    width:100% !important;
+   }
+    .hero_section .container-md  .tool .input-group  .btn{
+        margin-top: 10% !important;
+        width: 100%;
+      
+
+    }
+}
+
+.hero_section .container-md  .tool .input-group .form-control{
+     background-color: var(--color_Neutral_600);
+     border: none;
+     color: white !important;
+} 
+
+.hero_section .container-md  .tool .input-group .form-control::placeholder{
+    color: white !important;
+    
+    text-align: center;
+  
+} 
+@media(max-width:992px){
+    .hero_section .container-md  .tool .input-group .form-control::placeholder{
+        font-size: 8px;
+    }
+}
+.hero_section .container-md  .tool .input-group .btn{
+   border-radius: 6px !important;
+    margin-left: 2% !important;
+}
+
