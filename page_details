@@ -27,23 +27,23 @@
   
 
 
-  Feels like
-  <!-- Insert temperature here -->
-
-  Humidity
-  <!-- Insert humidity here -->
-
-  Wind
-  <!-- Insert wind here -->   
   
-  Precipitation
+
+
+
+
+
+
+
+  
+
   <!-- Insert precipitation here -->
 
   Daily forecast
   <!-- Insert daily forecast for the next 7 days here -->
 
-  Hourly forecast
-  <!-- Insert hourly forecast for the selected day here -->
+  
+ 
 
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
