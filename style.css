@@ -20,6 +20,9 @@ body{
     color: white !important;
 
 }
+hr{
+    margin: 0 !important;
+}
 
 @media(max-width:992px){
 .navbar .container-md {
@@ -34,17 +37,32 @@ body{
 }
 .navbar .container-md .dropdown{
    
-    flex-basis: 20%  !important;
+ flex-basis: 20%  !important;
     
 }
 }
 .navbar .container-md  .dropdown button {
   background-color: var(--color_Neutral_600);
   width: 100%;
-
 }
+.navbar .container-md  .dropdown .dropdown-menu label:not(:first-child){
+    color: var(--color_Neutral_300);
+}
+
 .navbar .container-md .logo img{
     width: 100% !important;
+}
+.navbar .container-md .dropdown ul li:hover a,
+.navbar .container-md .dropdown ul li:hover i{
+    background-color: var(--color_Neutral_300)!important;
+  
+}
+.navbar .container-md .dropdown ul label{
+     color: aliceblue;
+}
+.navbar .container-md .dropdown ul li a{
+    color: aliceblue;
+    font-size: 12px;
 }
 /* End Nav_section */
 
@@ -370,6 +388,14 @@ flex-basis: 30%;
    
    
 }
+.details  .hourly ul li a{
+    color: aliceblue;
+    font-size: 12px;
+    translate: all .5s;
+}
+.details  .hourly ul li:hover a{
+     background-color: var(--color_Neutral_300)!important;
+}
 .details  .hourly .top .btn-group .btn{
     background-color: var(--color_Neutral_700) !important;
     border: none;
@@ -458,10 +484,20 @@ flex-basis: 30%;
 /* Start_Footer_section  */
 footer{
      padding: 15px;
-    background-color: var(--color_Neutral_700);
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
+   
+}
+footer span,
+footer span{
+     font-size: 12px;   
+}
+@media(max-width:992px){
+    footer{
+        flex-direction: column;
+    }
 }
 /* End_Footer_section  */
 
